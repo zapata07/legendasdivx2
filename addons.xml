@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="service.subtitles.legendasdivx2" name="LegendasDivx v2" version="2.0.0" provider-name="HiGhLaNdR@OLDSCHOOL">
+<addon id="repository.zapata07" name="Zapata07 Repo" version="1.0.0" provider-name="Zapata07">
+  <extension point="xbmc.addon.repository" name="Zapata07 Repo">
+    <dir>
+      <info compressed="false">https://raw.githubusercontent.com/zapata07/legendasdivx2/main/addons.xml</info>
+      <checksum>https://raw.githubusercontent.com/zapata07/legendasdivx2/main/addons.xml.md5</checksum>
+      <datadir zip="true">https://raw.githubusercontent.com/zapata07/legendasdivx2/main/</datadir>
+    </dir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Zapata07 Kodi Repository</summary>
+    <description>Kodi Repo</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="service.subtitles.legendasdivx2" name="LegendasDivx v2" version="2.0.2" provider-name="HiGhLaNdR@OLDSCHOOL">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
   </requires>
