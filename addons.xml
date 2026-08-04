@@ -15,7 +15,7 @@
   </extension>
 </addon>
 
-<addon id="service.subtitles.legendasdivx2" name="LegendasDivx v2" version="2.0.5" provider-name="HiGhLaNdR@OLDSCHOOL">
+<addon id="service.subtitles.legendasdivx2" name="LegendasDivx v2" version="2.0.6" provider-name="HiGhLaNdR@OLDSCHOOL">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
   </requires>
