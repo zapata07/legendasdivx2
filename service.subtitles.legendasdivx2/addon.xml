@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="service.subtitles.legendasdivx2" name="LegendasDivx v2" version="2.0.0" provider-name="HiGhLaNdR@OLDSCHOOL">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+  </requires>
+  <extension point="xbmc.subtitle.module" library="service.py" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">LegendasDivx.com Subtitles</summary>
+    <summary lang="pt">Legendas de LegendasDivx.com</summary>
+    <description lang="en">Search and download subtitles from LegendasDivx.com</description>
+    <description lang="pt">Pesquisa e download de legendas do LegendasDivx.com</description>
+    <disclaimer lang="en">We do not host any of the subtitles, they are provided by LegendasDivx.com users.</disclaimer>
+    <disclaimer lang="pt">Nós não alojamos nenhuma legenda, elas são fornecidas pelos utilizadores do LegendasDivx.com.</disclaimer>
+    <platform>all</platform>
+    <license>GPL v2</license>
+    <website>http://www.legendasdivx.pt</website>
+    <news>
+v2.0.0 (Atualização não-oficial / Revisão Kodi 21 Omega)
+- Correção do erro de prefixo parasita gerado pela ofuscação anti-bot do Cloudflare
+- Adaptação ao Kodi 21 (Remoção da função obsoleta xbmc.getCleanMovieTitle)
+- Correção do algoritmo de strings na pesquisa de ficheiros (remoção de aspas duplas desnecessárias que quebravam os URLs no motor do site)
+- Adicionado User-Agent moderno para contornar bloqueios de conectividade
+    </news>
+  </extension>
+</addon>
