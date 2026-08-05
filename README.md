@@ -12,6 +12,7 @@ Notable changes:
 - Many improvements and corrections to the search function. E.g. the TV show search was bugged since a long time ago.
 - New search option, "Search by IMDb ID" (see addon Advanced Settings). Option activated by default. This option resolves 99.9% of search issues.
 - When searching by name, instead of the new default, by IMDb ID, correction to the search string algorithm.
+- When dealing with subtitles which only contain one file, it will download and use it automatically, instead of always asking the user to select it. When dealing with Season packs, for example, it will present a prompt to select the file.
 - Changed the User-Agent to use a more modern one to work around possible connectivity blocks.
 
 To install the addon:
