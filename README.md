@@ -1,5 +1,7 @@
 Kodi subtitle addon for Legendasdivx.pt. Changed to comply with Kodi v21. Several corrections.
-Based on Highlander's work, v.1.6.0 
+
+Based on Highlander's work, v.1.6.0. 
+
 Tested on Kodi 21.3. Probably not compatible with previous major releases.
 
 *** Code generated via Gemini Pro AI ***
