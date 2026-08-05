@@ -15,7 +15,7 @@
   </extension>
 </addon>
 
-<addon id="service.subtitles.legendasdivx2" name="LegendasDivx v2" version="2.1.6" provider-name="zapata07">
+<addon id="service.subtitles.legendasdivx2" name="LegendasDivx v2" version="2.1.7" provider-name="zapata07">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
   </requires>
@@ -34,7 +34,7 @@
         <icon>icon.png</icon>
     </assets>
     <news>
-v2.1.6 (Revisão Kodi 21 Omega)
+v2.1.7 (Revisão Kodi 21 Omega)
 - Correção do erro de prefixo parasita gerado pela ofuscação anti-bot do Cloudflare
 - Adaptação ao Kodi 21 (Remoção da função obsoleta xbmc.getCleanMovieTitle)
 - Correção do algoritmo de strings na pesquisa de ficheiros (remoção de aspas duplas desnecessárias que quebravam os URLs no motor do site)
