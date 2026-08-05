@@ -8,7 +8,7 @@ Tested on Kodi 21.3. Probably not compatible with previous major releases.
 
 Notable changes:
 - Correction of results presentation: removal of extraneous string "document.currentScript.previousElementSibling.querySelector" present on all results.
-- More complete compatibility with Kodi 21, e.g. removal of obsolete function xbmc.getCleanMovieTitle).
+- More complete compatibility with Kodi 21, e.g. removal of obsolete function xbmc.getCleanMovieTitle.
 - Many improvements and corrections to the search function. E.g. the TV show search was bugged since a long time ago.
 - New search option, "Search by IMDb ID" (see addon Advanced Settings). Option activated by default. This option resolves 99.9% of search issues.
 - When searching by name, instead of the new default, by IMDb ID, correction to the search string algorithm.
