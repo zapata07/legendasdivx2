@@ -15,7 +15,7 @@
   </extension>
 </addon>
 
-<addon id="service.subtitles.legendasdivx2" name="LegendasDivx v2" version="2.1.9" provider-name="zapata07">
+<addon id="service.subtitles.legendasdivx2" name="LegendasDivx v2" version="2.2.0" provider-name="zapata07">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
   </requires>
@@ -26,7 +26,7 @@
     <description lang="en">Search and download subtitles from LegendasDivx.pt</description>
     <description lang="pt">Pesquisa e download de legendas do LegendasDivx.pt</description>
     <disclaimer lang="en">We do not host any of the subtitles, they are provided by LegendasDivx.pt users.</disclaimer>
-    <disclaimer lang="pt">Nós não alojamos nenhuma legenda, elas são fornecidas pelos utilizadores do LegendasDivx.pt.</disclaimer>
+    <disclaimer lang="pt">NÃ³s nÃ£o alojamos nenhuma legenda, elas sÃ£o fornecidas pelos utilizadores do LegendasDivx.pt.</disclaimer>
     <platform>all</platform>
     <license>GPL v2</license>
     <website>http://www.legendasdivx.pt</website>
@@ -34,11 +34,11 @@
         <icon>icon.png</icon>
     </assets>
     <news>
-v2.1.9 (Revisão Kodi 21 Omega)
-- Correção do erro de prefixo parasita gerado pela ofuscação anti-bot do Cloudflare
-- Adaptação ao Kodi 21 (Remoção da função obsoleta xbmc.getCleanMovieTitle)
-- Correção do algoritmo de strings na pesquisa de ficheiros (remoção de aspas duplas desnecessárias que quebravam os URLs no motor do site)
-- Outras melhorias e correcções no método de pesquisa e de download
+v2.2.0 (RevisÃ£o Kodi 21 Omega)
+- CorreÃ§Ã£o do erro de prefixo parasita gerado pela ofuscaÃ§Ã£o anti-bot do Cloudflare
+- AdaptaÃ§Ã£o ao Kodi 21 (RemoÃ§Ã£o da funÃ§Ã£o obsoleta xbmc.getCleanMovieTitle)
+- CorreÃ§Ã£o do algoritmo de strings na pesquisa de ficheiros (remoÃ§Ã£o de aspas duplas desnecessÃ¡rias que quebravam os URLs no motor do site)
+- Outras melhorias e correcÃ§Ãµes no mÃ©todo de pesquisa e de download
 - Adicionado User-Agent moderno para contornar bloqueios de conectividade
     </news>
   </extension>
